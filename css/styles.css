@@ -1,11 +1,10 @@
 :root {
   --primary-font-family: 'Roboto', sans-serif;
   --secondary-font-family: 'Raleway', sans-serif;
-  --secondary-font-family: ;
-  --primary-color: #212121;
+   --primary-color: #212121;
   --secondary-color: #2196f3;
   --text-color: #757575;
-}
+  }
 body {
   font-family: var(--primary-font-family);
   color: var(--primary-color);
@@ -25,11 +24,6 @@ body {
   font-family: var(--secondary-font-family);
 }
 .logo-style {
-  /* font-family: 'Oleo Script', cursive; */
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.38;
-  letter-spacing: 0.03em;
   color: var(--secondary-color);
 }
 
@@ -88,15 +82,18 @@ body {
 .header-contacts:focus {
   color: var(--secondary-color);
 }
-.hero-title {
+.hero-style{
+ background-color: #2F303A;
+}
+
+.title-hero {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #696666;
-  /* color: #FFFFFF; */
+   color: #FFFFFF;
 }
 .button-mdl {
   font-weight: 700;
@@ -137,6 +134,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-color);
 }
+.team-style{
+  background: #F5F4FA;
+}
 .title-name {
   font-weight: 500;
   font-size: 16px;
@@ -155,18 +155,18 @@ body {
 }
 
 /* ==-------FOOTER--------- */
+.footer-style{
+  background: #2F303A;
+  color: #FFFFFF;
+}
 .footer-address {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-}
-.location {
-  color: #0a0a0a;
-  /* color: #FFFFFF; */
+  
 }
 .footer-contacts {
-  color: rgba(82, 75, 75, 0.555);
-  /* color: rgba(255, 255, 255, 0.6); */
+ color: rgba(255, 255, 255, 0.6);
 }
